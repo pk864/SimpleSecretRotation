@@ -61,8 +61,8 @@ def create_secret(service_client, arn, token):
         service_client.put_secret_value(SecretId=arn, ClientRequestToken=token, SecretString=json.dumps(current_dict), VersionStages=['AWSCURRENT'])
         logger.info("createSecret: Successfully put secret for ARN %s and version %s." % (arn, token))
 
-        # Before we delete the parameter we need to wait some seconds that the powershell will be executed
-        # the above send_command is asyncronous
+        
+        
 
     except Exception as e:
         print("Error")
