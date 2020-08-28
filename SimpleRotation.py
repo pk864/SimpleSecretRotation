@@ -46,7 +46,6 @@ def create_secret(service_client, arn, token):
 
     mysecretresponse = service_client.describe_secret(SecretId=arn)
     print('mysecretresponse')
-    # we need this unicode conversion because the tags are in unicode and we have back errors
 
     try:
 
