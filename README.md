@@ -3,7 +3,7 @@ The python code is to rotate a simple secret(Username and password). The code is
 
 PreRequisites:-
 
-1)Create the secret in AWS SecretsManager with the following key/value pair.
+   1)Create the secret in AWS SecretsManager with the following key/value pair.
 
 {
   "username": "<username>",
