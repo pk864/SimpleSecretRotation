@@ -12,8 +12,8 @@ PreRequisites:-
 
 
 (3) Add the following Enviornment Variables for the lambda function.
-         Key                             Value
-SECRETS_MANAGER_ENDPOINT         https://secretsmanager.us-east-1.amazonaws.com    
+Key:- SECRETS_MANAGER_ENDPOINT                           
+Value:- https://secretsmanager.us-east-1.amazonaws.com    
 
 (4)Create a lambda function IAM role and attach the SecretsManagerReadWrite managed policy.
 
