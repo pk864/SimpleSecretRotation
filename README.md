@@ -22,5 +22,7 @@ Value:- https://secretsmanager.us-east-1.amazonaws.com
 (5)Once done, click on edit rotation and select the lambda function we created in step(2) and hit save. The first rotation will be invoked after we hit the save button.
 
 Referneces:-
+
 [1]https://github.com/aws-samples/aws-secrets-manager-rotation-lambdas/blob/master/SecretsManagerRotationTemplate/lambda_function.py
+
 [2]https://docs.aws.amazon.com/lambda/latest/dg/getting-started-create-function.html
