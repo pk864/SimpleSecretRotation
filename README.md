@@ -10,6 +10,11 @@ PreRequisites:-
 
 (2)Create a lambda function[2] and add the add the code.For simplicity, keep the lambda rotation function outside the VPC. To add secretsmanager permissions to invoke the lambda function, use the following command:-
 
-(3)Create a lambda function IAM role and attach the SecretsManagerReadWrite managed policy.
 
-(4)Once done, click on edit rotation and select the lambda function we created in step(2) and hit save. The first rotation will be invoked after we hit the save button.
+(3) Add the following Enviornment Variables for the lambda function.
+         Key                             Value
+SECRETS_MANAGER_ENDPOINT         https://secretsmanager.us-east-1.amazonaws.com    
+
+(4)Create a lambda function IAM role and attach the SecretsManagerReadWrite managed policy.
+
+(5)Once done, click on edit rotation and select the lambda function we created in step(2) and hit save. The first rotation will be invoked after we hit the save button.
