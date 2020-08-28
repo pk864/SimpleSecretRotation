@@ -9,6 +9,7 @@ PreRequisites:-
   "username": "<username>",
   "password": "<any password>"
 }
+
 2) Create a lambda function[2] and add the add the code.For simplicity, keep the lambda rotation function outside the VPC. To add secretsmanager permissions to invoke the lambda function, use the following command:-
 
 3)Create a lambda function IAM role and attach the SecretsManagerReadWrite managed policy.
