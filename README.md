@@ -12,6 +12,7 @@ PreRequisites:-
 
 
 (3) Add the following Enviornment Variables for the lambda function.
+
 Key:- SECRETS_MANAGER_ENDPOINT                           
 Value:- https://secretsmanager.us-east-1.amazonaws.com    
 
